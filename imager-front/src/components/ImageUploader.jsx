@@ -136,9 +136,9 @@ function ImageUploader() {
           />
         </div>
       </div>
-      <div>
+      <div className="flex flex-wrap justify-center m-3">
         {files.map((item) => {
-          <img src={item} alt="" key={item} />;
+          <img src={item} alt="" key={item} className="ml-2" />;
         })}
       </div>
     </div>
